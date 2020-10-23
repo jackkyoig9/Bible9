@@ -166,13 +166,13 @@ function hiddenInput() {
 			<tr align="center">
 				<th>
 					<!-- <div id="ipt_old" class="btn btn-warning btn-block btn-lg" style="font-weight:bold"></div> -->
-					<input id="ipt_old" class="btn btn-warning btn-block btn-lg" type="text" readonly />
+					<input id="ipt_old" class="btn btn-warning btn-block btn-lg" type="text" title="총 39권/66권" readonly />
 					<!-- <input type="button" id="ipt_old"
 						style="font-weight:bold; font-size: 120%; background-color: #f0ad4e;" disabled /> -->
 				</th>
 				<th>
 					<!-- <div id="ipt_new" class="btn btn-warning btn-block btn-lg" style="font-weight:bold"></div> -->
-					<input id="ipt_new" class="btn btn-warning btn-block btn-lg" type="text" readonly />
+					<input id="ipt_new" class="btn btn-warning btn-block btn-lg" type="text" title="총 27권/66권" readonly />
 					<!-- <input type="button" id="ipt_new"
 						style="font-weight:bold; font-size: 120%; background-color: #f0ad4e;" disabled /> -->
 				</th>

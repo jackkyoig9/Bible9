@@ -35,11 +35,11 @@ a:hover{
 	left: 0%;
 	width: 30%;
 }
-#btnAdjustFontMinus{
+#btnAdjustFontPlus{
 	right: 0%;
 	width: 10%;
 }
-#btnAdjustFontPlus{
+#btnAdjustFontMinus{
 	right: 10%;
 	width: 10%;
 }
@@ -72,8 +72,8 @@ a:hover{
 <script defer>
 //$(document).ready(function(){
 $(function(){
-	$("#div_alert").css("left",(document.documentElement.clientWidth/2)-parseInt($("#div_alert").css("width"))/2);
-	$("#div_alert").css("top",(document.documentElement.clientHeight/2)-parseInt($("#div_alert").css("height"))/2);
+	$("#div_alert").css("left",(document.documentElement.clientWidth/2)-(parseInt($("#div_alert").css("width"))/2));
+	$("#div_alert").css("top",(document.documentElement.clientHeight/2)-(parseInt($("#div_alert").css("height"))/2));
 	<%/* 성경 이동 */%>
 	$("#btnBib").bind("click", function(){
 		location.href = "${path}/bib_serv/bib_book.do";
